@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Fishowl&#39;s Blog</title>
   
-  <subtitle>不知名我恨美术派艺术家</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <subtitle>Welcome to my blog！</subtitle>
+  <link href="https://fishowlllll.github.io/project/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://fishowlllll.github.io/project/"/>
   <updated>2021-09-06T15:07:02.840Z</updated>
-  <id>http://example.com/</id>
+  <id>https://fishowlllll.github.io/project/</id>
   
   <author>
     <name>Fishowl</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/09/06/hello-world/"/>
-    <id>http://example.com/2021/09/06/hello-world/</id>
+    <link href="https://fishowlllll.github.io/project/2021/09/06/hello-world/"/>
+    <id>https://fishowlllll.github.io/project/2021/09/06/hello-world/</id>
     <published>2021-09-06T15:07:02.839Z</published>
     <updated>2021-09-06T15:07:02.840Z</updated>
     
