@@ -3,11 +3,11 @@
   <title>Fishowl&#39;s Blog</title>
   
   <subtitle>Welcome to my blog！</subtitle>
-  <link href="https://fishowlllll.github.io/atom.xml" rel="self"/>
+  <link href="https://github.com/fishowlllll/fishowlllll.github.io/atom.xml" rel="self"/>
   
-  <link href="https://fishowlllll.github.io/"/>
+  <link href="https://github.com/fishowlllll/fishowlllll.github.io/"/>
   <updated>2021-09-06T15:07:02.840Z</updated>
-  <id>https://fishowlllll.github.io/</id>
+  <id>https://github.com/fishowlllll/fishowlllll.github.io/</id>
   
   <author>
     <name>Fishowl</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://fishowlllll.github.io/2021/09/06/hello-world/"/>
-    <id>https://fishowlllll.github.io/2021/09/06/hello-world/</id>
+    <link href="https://github.com/fishowlllll/fishowlllll.github.io/2021/09/06/hello-world/"/>
+    <id>https://github.com/fishowlllll/fishowlllll.github.io/2021/09/06/hello-world/</id>
     <published>2021-09-06T15:07:02.839Z</published>
     <updated>2021-09-06T15:07:02.840Z</updated>
     
