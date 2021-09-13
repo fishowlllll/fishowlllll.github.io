@@ -25,6 +25,8 @@
 
 
 
+    <link rel="dns-prefetch" href="https://busuanzi.ibruce.info"/>
+
 
 
     <link rel="dns-prefetch" href="https://.disqus.com"/>
@@ -165,12 +167,7 @@
 
     <style>
       body{
-        background-color: #F5F5F5;
-      }
-
-      /* blog_info bottom background */
-      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
-        background-color: #fff;
+        background-image: url(/img/bg.png);
       }
     </style>
 
@@ -387,6 +384,12 @@
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
             
+                <a class="index_share-link" href="gallery" title="My Gallery">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        My Gallery
+                    </li>
+                </a>
+            
         </ul>
 
         <!-- Menu -->
@@ -395,6 +398,15 @@
             <span class="visuallyhidden">show menu</span>
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
+            
+                <!-- All Site UV -->
+                <a class="index_share-link" href="#">
+                    <li class="mdl-menu__item mdl-js-ripple-effect">
+                        <span id="busuanzi_container_site_uv">
+                            <span id="busuanzi_value_site_uv"></span>&nbsp;浏览量
+                        </span>
+                    </li>
+                </a>
             
 
             
@@ -561,7 +573,7 @@
 
     <!-- Sidebar Email -->
     <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
-        1329047954@qq.com
+        2949394689@qq.com
         <b class="caret"></b>
     </a>
 </div>
@@ -574,7 +586,7 @@
         <ul id="settings-dropdown" class="dropdown-menu">
             
                 <li>
-                    <a href="#" target="_blank" title="Email Me">
+                    <a href="2949394689@qq.com" target="_blank" title="Email Me">
                         
                             <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
                         
@@ -621,8 +633,28 @@
 
     <!-- Pages  -->
     
+        <li>
+            <a href="gallery" title="My Gallery">
+                
+                    <i class="material-icons sidebar-material-icons">account_balance</i>
+                
+                My Gallery
+            </a>
+        </li>
+        
+            <li class="divider"></li>
+        
+    
 
     <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">1</span>
+            </a>
+        </li>
+        
     
 </ul>
 
@@ -689,7 +721,9 @@ It will not impact the appearance and can give developers a lot of support :)
 
                     <!--Footer-->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+
 </script>
+
 <footer class="mdl-mini-footer" id="bottom">
     
         <!-- Paradox Footer Left Section -->
@@ -777,6 +811,13 @@ It will not impact the appearance and can give developers a lot of support :)
 
         <div class="mdl-mini-footer--right-section">
             <div>
+                <div id="busuanzi_container_site_pv">
+                    page viewed <a id="busuanzi_value_site_pv"></a> times,</div>
+                
+                <div id="busuanzi_container_site_uv">
+                    <a id="busuanzi_value_site_uv"></a> unique visitors</div>
+                
+                
                 <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
                 <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
             </div>
@@ -824,6 +865,9 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+
+    <!-- Busuanzi -->
+    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
